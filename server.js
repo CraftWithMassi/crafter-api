@@ -55,7 +55,7 @@ app.post("/api/lead", async (req, res) => {
     // ✅ correct response
     res.json({ success: true });
 
-    app.get('/ping', (req, res) => res.send('Ok');
+    app.get('/ping', (req, res) => res.send('Ok'));
 
   } catch (error) {
     console.error(error);
